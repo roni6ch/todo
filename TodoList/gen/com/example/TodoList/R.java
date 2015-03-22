@@ -2083,9 +2083,8 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f02005d;
     }
     public static final class id {
-        public static final int CheckBox01=0x7f0c006b;
+        public static final int CheckBox01=0x7f0c0066;
         public static final int Edit=0x7f0c0058;
-        public static final int TextView01=0x7f0c005e;
         public static final int action_bar=0x7f0c0047;
         public static final int action_bar_activity_content=0x7f0c0003;
         public static final int action_bar_container=0x7f0c0046;
@@ -2099,7 +2098,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0c0044;
         public static final int action_mode_bar_stub=0x7f0c0043;
         public static final int action_mode_close_button=0x7f0c0036;
-        public static final int action_settings=0x7f0c006f;
+        public static final int action_settings=0x7f0c006a;
         public static final int activity_chooser_view_content=0x7f0c0037;
         public static final int addTaskBTN=0x7f0c0057;
         public static final int adjust_height=0x7f0c0009;
@@ -2108,7 +2107,7 @@ containing a value of this type.
         public static final int beginning=0x7f0c002f;
         public static final int book_now=0x7f0c0019;
         public static final int bottom=0x7f0c0032;
-        public static final int button1=0x7f0c0062;
+        public static final int button1=0x7f0c0061;
         public static final int buyButton=0x7f0c0015;
         public static final int buy_now=0x7f0c001a;
         public static final int buy_with_google=0x7f0c001b;
@@ -2121,7 +2120,7 @@ containing a value of this type.
         public static final int delete=0x7f0c0059;
         public static final int dialog=0x7f0c002d;
         public static final int disableHome=0x7f0c0022;
-        public static final int displayText1=0x7f0c0068;
+        public static final int displayText1=0x7f0c0062;
         public static final int donate_with_google=0x7f0c001c;
         public static final int done=0x7f0c005a;
         public static final int dropdown=0x7f0c002e;
@@ -2129,7 +2128,7 @@ containing a value of this type.
         public static final int end=0x7f0c0030;
         public static final int expand_activities_button=0x7f0c0038;
         public static final int expanded_menu=0x7f0c003e;
-        public static final int findMyAndroid=0x7f0c0064;
+        public static final int findMyAndroid=0x7f0c005d;
         public static final int grayscale=0x7f0c001e;
         public static final int holo_dark=0x7f0c0010;
         public static final int holo_light=0x7f0c0011;
@@ -2142,10 +2141,7 @@ containing a value of this type.
         public static final int listMode=0x7f0c0020;
         public static final int listViewMain1=0x7f0c0056;
         public static final int list_item=0x7f0c003b;
-        public static final int mLastUpdateTimeTextView=0x7f0c0060;
-        public static final int mLatitude=0x7f0c005d;
-        public static final int mLongitude=0x7f0c005f;
-        public static final int map=0x7f0c0063;
+        public static final int map=0x7f0c005c;
         public static final int match_parent=0x7f0c0017;
         public static final int middle=0x7f0c0031;
         public static final int monochrome=0x7f0c001f;
@@ -2156,10 +2152,10 @@ containing a value of this type.
         public static final int progress_circular=0x7f0c0007;
         public static final int progress_horizontal=0x7f0c0008;
         public static final int radio=0x7f0c0041;
-        public static final int radio0=0x7f0c0066;
-        public static final int radio1=0x7f0c0067;
-        public static final int radioGroup1=0x7f0c0065;
-        public static final int rowTextView=0x7f0c006a;
+        public static final int radio0=0x7f0c005f;
+        public static final int radio1=0x7f0c0060;
+        public static final int radioGroup1=0x7f0c005e;
+        public static final int rowTextView=0x7f0c0065;
         public static final int sandbox=0x7f0c0013;
         public static final int satellite=0x7f0c000e;
         public static final int search_badge=0x7f0c004b;
@@ -2183,14 +2179,13 @@ containing a value of this type.
         public static final int tabMode=0x7f0c0021;
         public static final int terrain=0x7f0c000f;
         public static final int textView1=0x7f0c0055;
-        public static final int textView2=0x7f0c005c;
-        public static final int textView3=0x7f0c0061;
-        public static final int timePicker1=0x7f0c0069;
+        public static final int textView2=0x7f0c0063;
+        public static final int timePicker1=0x7f0c0064;
         public static final int title=0x7f0c003d;
         public static final int top=0x7f0c0033;
-        public static final int tv1=0x7f0c006c;
-        public static final int tv2=0x7f0c006d;
-        public static final int tv3=0x7f0c006e;
+        public static final int tv1=0x7f0c0067;
+        public static final int tv2=0x7f0c0068;
+        public static final int tv3=0x7f0c0069;
         public static final int up=0x7f0c0001;
         public static final int useLogo=0x7f0c0027;
         public static final int withText=0x7f0c002c;

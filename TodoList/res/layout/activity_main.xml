@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.TodoList.MainActivity" >
+    tools:context="roni.shlomi.TodoList.MainActivity" >
 
   <TextView
       android:id="@+id/textView1"
@@ -74,73 +74,8 @@
       android:layout_width="match_parent"
       android:layout_height="350dp"
       android:layout_alignParentBottom="true"
-      android:layout_toLeftOf="@+id/delete" >
+      android:layout_alignParentRight="true" >
 
   </ListView>
-
-  <TextView
-      android:id="@+id/textView2"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignBottom="@+id/listViewMain1"
-      android:layout_alignLeft="@+id/delete"
-      android:text="Latitude:"
-      android:textAppearance="?android:attr/textAppearanceSmall" />
-
-  <TextView
-      android:id="@+id/mLatitude"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignBaseline="@+id/textView2"
-      android:layout_alignBottom="@+id/textView2"
-      android:layout_toRightOf="@+id/textView2"
-      android:text="TextView"
-      android:typeface="monospace" />
-
-  <TextView
-      android:id="@+id/TextView01"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_above="@+id/textView2"
-      android:layout_alignLeft="@+id/textView2"
-      android:text="Longitude:"
-      android:textAppearance="?android:attr/textAppearanceSmall" />
-
-  <TextView
-      android:id="@+id/mLongitude"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_above="@+id/mLatitude"
-      android:layout_toRightOf="@+id/TextView01"
-      android:text="TextView"
-      android:typeface="monospace" />
-
- 
-  <TextView
-      android:id="@+id/mLastUpdateTimeTextView"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_above="@+id/mLongitude"
-      android:layout_toRightOf="@+id/textView3"
-      android:text="00:00:00" />
-
-  <TextView
-      android:id="@+id/textView3"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignBottom="@+id/mLastUpdateTimeTextView"
-      android:layout_alignLeft="@+id/TextView01"
-      android:text="LastUpdate: " />
-
-  <Button
-      android:id="@+id/button1"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_above="@+id/mLastUpdateTimeTextView"
-      android:layout_alignLeft="@+id/done"
-      android:layout_alignRight="@+id/done"
-      android:layout_marginBottom="27dp"
-      android:background="@drawable/map"
-      android:onClick="onClick_Map" />
   
 </RelativeLayout>

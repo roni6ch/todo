@@ -52,4 +52,15 @@
         android:onClick="onClick_regularView"
         android:text="שטח" />
 
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/radio0"
+        android:layout_toLeftOf="@+id/radio1"
+        android:layout_toRightOf="@+id/findMyAndroid"
+        android:onClick="onClick_OkMap"
+        android:text="OK" />
+
 </RelativeLayout>

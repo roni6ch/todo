@@ -31,11 +31,11 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <service
-            android:name=".FetchAddressIntentService"
+            android:name="roni.shlomi.TodoList.FetchAddressIntentService"
             android:exported="false" />
 
         <activity
-            android:name="com.example.TodoList.Splash"
+            android:name="roni.shlomi.TodoList.Splash"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,7 +44,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.TodoList.MainActivity"
+            android:name="roni.shlomi.TodoList.MainActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
@@ -54,16 +54,16 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="page2task" >
+        <activity android:name="roni.shlomi.TodoList.page2task" >
         </activity>
         <activity
-            android:name="com.example.TodoList.map"
+            android:name="roni.shlomi.TodoList.map"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
 
         <receiver
-            android:name="com.example.TodoList.AlarmReceiver"
+            android:name="roni.shlomi.TodoList.AlarmReceiver"
             android:enabled="true"
             android:exported="false" >
         </receiver>
@@ -76,7 +76,8 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyCOQFG4Rh8YaR3ZLvklw24BqxnG4qkn1hU" />
         
-          <service android:name=".GeofenceTransitionsIntentService" android:exported="false"/>
+         <service android:name="roni.shlomi.TodoList.GeofenceTransitionsIntentService" android:exported="false"/>
+         <service android:name="roni.shlomi.TodoList.IntentMapService"  android:exported="false"/>
     </application>
 
 </manifest>

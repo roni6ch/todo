@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/a"
-    android:orientation="vertical" 
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
     android:paddingRight="30dp"
-    android:paddingLeft="30dp">
+    tools:context="roni.shlomi.TodoList.page2task" >
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:layout_weight="0.00"
         android:text="Please enter new task"
         android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
@@ -21,24 +23,39 @@
         android:id="@+id/displayText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10" 
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:text="ADD LOCATION:" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/map"
+        android:onClick="onClick_Map" />
 
     <TimePicker
         android:id="@+id/timePicker1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.00" 
-        android:layout_marginTop="10dp"/>
+        android:layout_height="240dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.23" />
 
     <Button
         android:id="@+id/delete"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
         android:layout_weight="0.00"
         android:background="@drawable/add"
-        android:onClick="onClickAddnewTask" 
-        android:layout_marginTop="30dp"/>
+        android:onClick="onClickAddnewTask" />
 
 </LinearLayout>
