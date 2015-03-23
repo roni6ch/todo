@@ -4,7 +4,6 @@ import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -22,7 +21,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.TodoList.R;
+import com.google.analytics.tracking.android.EasyTracker;
+import com.google.analytics.tracking.android.MapBuilder;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
@@ -57,11 +58,16 @@ public class MainActivity extends Activity implements
 	PendingIntent mGeofencePendingIntent = null;
 	List<Geofence> mGeofenceList = new ArrayList<Geofence>();
 	private LatLng LOCATION;
+	private EasyTracker easyTracker = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+        easyTracker = EasyTracker.getInstance(MainActivity.this);
+        easyTracker.send(MapBuilder.createEvent("TrackEventTest", "Welcome To The APP", "track_event", null).build());
+        
 		myDb = new DBAdapter(this);
 		myDb.open();
 		cursor = myDb.getAllRows();
@@ -87,6 +93,19 @@ public class MainActivity extends Activity implements
 
 	}
 
+	@Override
+	protected void onStart() {
+		super.onStart();
+		
+		EasyTracker.getInstance(this).activityStart(this);
+	}
+
+	@Override
+	protected void onStop() {
+		super.onStop();
+
+		EasyTracker.getInstance(this).activityStop(this);
+	}
 	/************************************ GOOGLE API FOR LOCATION ****************************************/
 
 	protected synchronized void buildGoogleApiClient() {

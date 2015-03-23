@@ -12,7 +12,6 @@ import android.support.v4.app.NotificationCompat;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.example.TodoList.R;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.Geofence;
 import com.google.android.gms.location.GeofencingEvent;

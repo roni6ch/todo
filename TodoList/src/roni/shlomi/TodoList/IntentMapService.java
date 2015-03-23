@@ -11,7 +11,6 @@ import android.os.Vibrator;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
-import com.example.TodoList.R;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 
@@ -45,7 +44,7 @@ public class IntentMapService extends Service {
 		cursor.close();
 		/** till here */
 	
-		cursor2 = myDb.getAllRows();
+		cursor2 = myDb.getAllRows();  
 
 		if (cursor2.moveToFirst()) {
 			do {
@@ -128,5 +127,7 @@ public class IntentMapService extends Service {
 	public void onDestroy() {
 		super.onDestroy();
 		myDb.close();
+		cursor.close();
+		cursor2.close();
 	}
 }

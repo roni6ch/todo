@@ -15,7 +15,6 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-import com.example.TodoList.R;
 
 public class page2task extends Activity {
 	TextView tv;

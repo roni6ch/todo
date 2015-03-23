@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
-import com.example.TodoList.R;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;

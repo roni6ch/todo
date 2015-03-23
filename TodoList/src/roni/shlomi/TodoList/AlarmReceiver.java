@@ -1,7 +1,5 @@
 package roni.shlomi.TodoList;
 
-import com.example.TodoList.R;
-
 import android.app.NotificationManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;

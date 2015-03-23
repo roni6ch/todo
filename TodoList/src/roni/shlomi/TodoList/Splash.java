@@ -1,5 +1,4 @@
 package roni.shlomi.TodoList;
-import com.example.TodoList.R;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -27,7 +26,7 @@ public class Splash extends FragmentActivity {
 				}
 
 				finally{
-					Intent openMenu = new Intent("com.example.TodoList.MainActivity");
+					Intent openMenu = new Intent("roni.shlomi.TodoList.MainActivity");
 					startActivity(openMenu);
 				}
 			}

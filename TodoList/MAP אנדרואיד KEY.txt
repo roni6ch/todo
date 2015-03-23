@@ -1,5 +1,5 @@
 key for Android applications
 
 API KEY AIzaSyCOQFG4Rh8YaR3ZLvklw24BqxnG4qkn1hU ANDROID APPLICATIONS  
-60:00:37:50:9A:74:CF:27:D7:07:00:FB:6C:34:32:CA:D7:DE:37:DB;com.example.TodoList
+60:00:37:50:9A:74:CF:27:D7:07:00:FB:6C:34:32:CA:D7:DE:37:DB;roni.shlomi.TodoList
  ACTIVATION DATE Mar 10, 2015, 6:50:00 AM ACTIVATED BY roni691986@gmail.com (you)
